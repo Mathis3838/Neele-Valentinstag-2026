@@ -45,46 +45,47 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jade"                    // Your Valentine's name
+valentineName: "Neele"                    // Your Valentine's name
 pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
 
 // Floating Background Elements
 floatingEmojis: {
-    hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
+    hearts: ['❤️', '💖', '💝', '💗', '💓', '🫶'],  // Heart emojis in background
     bears: ['🧸', '🐻']                       // Bear emojis in background
 }
 
 // Questions and Buttons
 questions: {
     first: {
-        text: "Do you like me?",                   // First question
-        yesBtn: "Yes",                             // Yes button text
-        noBtn: "No",                               // No button text
-        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
+        text: "Magst du mich?",                   // First question
+        yesBtn: "JAAAA",                             // Yes button text
+        noBtn: "Nein",                               // No button text
+        secretAnswer: "Ich mag dich nicht nur, sondern ich liebe dich! ❤️"  // Hidden message
     },
     second: {
-        text: "How much do you love me?",          // Second question
-        startText: "This much!",                   // Text before percentage
+        text: "Wie sehr liebst du mich?",          // Second question
+        startText: "SOOOOOO VIEEEL!",                   // Text before percentage
         nextBtn: "Next ❤️"                         // Next button text
     },
     third: {
         text: "Will you be my Valentine...?",      // Final question
-        yesBtn: "Yes!",                            // Yes button text
-        noBtn: "No"                                // No button text
+        yesBtn: "JAAAAAAA!",                            // Yes button text
+        noBtn: "Nein 🥲"                                // No button text
     }
 }
 
 // Love Meter Messages
 loveMessages: {
-    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
-    high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
-    normal: "And beyond! 🥰"                           // Shows above 100%
+    extreme: "WOOOOW DU liebst mich soooooo sehr?? 🥰🚀💝",  // Shows above 5000%
+    high: "Bis zum Mond...! 🚀💝",              // Shows above 1000%
+    normal: "und noch weiter!! 🥰"                           // Shows above 100%
 }
 
 // Final Celebration
 celebration: {
-    title: "Yay! I'm the luckiest person...",     // Celebration title
-    message: "Now come get your gift...",          // Celebration message
+    title: "Wuhuuuu! Ich bin der glücklichste Mensch überhaupt!",     // Celebration title
+    message: "Jetzt komm her und hol dir dein Geschenk....",          // Celebration message
+    message: "Ist was mit der Post angekommen?",          // Celebration message
     emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
 }
 
